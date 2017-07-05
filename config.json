@@ -1,0 +1,15 @@
+{
+  "name": "VLille",
+  "description": "Displays vlille stations places",
+  "elementName": "marcel-plugin-vlille",
+  "files": ["index.html"],
+  "icon": "",
+  "props": [
+    {
+      "name": "api",
+      "description": "Url of the api for the stations",
+      "type": "string",
+      "defaultValue": "http://localhost:8080"
+    }
+  ]
+}
